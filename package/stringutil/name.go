@@ -1,4 +1,4 @@
 package stringutil
 
-// Make sure is capital so its exported
+// MyName is simple exported variable
 var MyName = "Chris"
