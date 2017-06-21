@@ -1,7 +1,8 @@
+// Package stringutil contains untilty functions for strings
 package stringutil
 
-// Reverse return the lenght of a provided string
-func Reverse(s string) int {
+// Length return the lenght of a provided string
+func Length(s string) int {
 	//Show how to call non-exposed function
-	return reverseLen(s)
+	return getLen(s)
 }

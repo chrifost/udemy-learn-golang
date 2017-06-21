@@ -11,5 +11,5 @@ func main() {
 	fmt.Println(stringutil.MyName)
 
 	//Print the lenght of the variable
-	fmt.Println(stringutil.MyName, "is", stringutil.Reverse(stringutil.MyName), "characters")
+	fmt.Println(stringutil.MyName, "is", stringutil.Length(stringutil.MyName), "characters")
 }
